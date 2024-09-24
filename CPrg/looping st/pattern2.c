@@ -62,9 +62,9 @@
 
 #include <stdio.h>
 int main() {
-    int row, col;
-    char ch = 'A';
-    for (row = 0; row <= 4; row++) {
+    int row,col;
+    char ch='A';
+    for (row=0; row<= 4; row++) {
         for (col = 4; col >=row; col--) {
             if (row % 2 == 0) {
                 printf(" %c ", ch);
