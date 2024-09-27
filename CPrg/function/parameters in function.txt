@@ -1,0 +1,5 @@
+// in function we have 3 type parameters:
+1. local parameter.
+2. global parameters.
+3. formal parameter.: pass with function declaration
+4. actual parameter:= parameters which are passed to the called function .
