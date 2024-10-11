@@ -19,7 +19,7 @@ int main(){
    // gets(str);
     fgets(str,20,stdin);
     //scanf("%s",&str);
-   // scanf("%[\^]s",str);
+   // scanf("%[^\n]s",str);
     printf("Enter string 2:");
    // scanf("%s",&str2);
    gets(str2);
