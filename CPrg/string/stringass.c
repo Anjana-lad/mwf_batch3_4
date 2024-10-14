@@ -89,8 +89,6 @@ void countSpacesDigits(char str[]) {
 
 int main(){
     char input[100];
-
-
    do
    {
     printf("\nEnter Operation Menu\n");
@@ -106,12 +104,12 @@ int main(){
 
     int choice;
     printf("Enter Your Choice:");
-    scanf("%d",choice);
+    scanf("%d",&choice);
 
     switch (choice){
           case 1:
                 printf("Enter a string: ");
-                scanf("%s", input);
+                scanf("%s",input);
                 reverseString(input);
                 printf("Reversed string: %s\n", input);
                 break;
