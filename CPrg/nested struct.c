@@ -7,7 +7,7 @@ struct employee{
         int dept_id;
         int dept_name;
     }dept;
-}emp1[2];
+}emp1;
 int main(){
     emp1.eid=1;
     emp1.salary=25000;
