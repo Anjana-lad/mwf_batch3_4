@@ -14,5 +14,4 @@ class Multiply{
 int main(){
     Multiply mul;
     Multiply m1;
-    
 }

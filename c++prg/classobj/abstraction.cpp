@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 class Result{
+  private:
     int a,b,c;
     public:
     void add(){
@@ -11,7 +12,6 @@ class Result{
         cout<<"total="<<c<<endl;
     }
 };
-
 int main(){
   Result res;
   res.add();  

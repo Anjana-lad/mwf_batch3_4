@@ -16,3 +16,7 @@ int main(){
   Points p;
   p.display();  
 }
+
+// WAP using constructor to multiply 3 numbers.
+// WAP to read and display employee details using nested class.
+// WAP to print fibonacci series using parameterized constructor.

@@ -3,10 +3,10 @@
 using namespace std;
 class A{
     public:
-    void show(){
-        cout<<"I am in class A"<<endl;
-    }
-    class B{
+    // void show(){
+    //     cout<<"I am in class A"<<endl;
+    // }
+    class B{ // nested class
         public:
         void show(){
             cout<<"I am in class B"<<endl;
@@ -14,8 +14,8 @@ class A{
     };
 };
 int main(){
-    A a;
-    a.show();
+    // A a;
+    // a.show();
     A :: B b;  // use accesss inner class method/function
     b.show();
 }

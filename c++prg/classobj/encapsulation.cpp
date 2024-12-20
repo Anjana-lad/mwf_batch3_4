@@ -5,17 +5,17 @@ class Rectangle{
     private:
     int length,width;
     public:
-    int set_data(int len,int wid){
-        length=len;
-        width=wid;
+    void set_data(int l,int w){
+        length=l;
+        width=w;
     }
-    int get_data(){
-        cout<<"Length="<<length<<"\nWidth="<<width<<endl;
-        cout<<"Area="<<2*length*width<<endl;
+    void display(){
+        cout<<"Length="<<length<<"\n Width="<<width<<endl;
+        cout<<"Area of retangle="<<length*width<<endl;
     }
 };
 int main(){
-  Rectangle rect;
-  rect.set_data(5,8);
-  rect.get_data();  
+    Rectangle rect;
+    rect.set_data(10,8);
+    rect.display();
 }
